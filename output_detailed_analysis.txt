@@ -1,0 +1,29 @@
+ANOMALY DETECTION ANALYSIS REPORT
+==================================================
+
+DATASET OVERVIEW:
+Total samples: 26400
+Analysis period samples: 26400
+Training period samples: 7200
+
+TRAINING PERIOD VALIDATION:
+Mean score: 4.038 (requirement: <10)
+Max score: 10.061 (requirement: <25)
+Standard deviation: 1.417
+
+ANOMALY STATISTICS:
+Moderate anomalies (30+): 4672
+Significant anomalies (60+): 3422
+Severe anomalies (90+): 2001
+
+TOP 10 HIGHEST ANOMALY EVENTS:
+2004-01-06 04:36:00: 100.00 (Top feature: AFeedStream1)
+2004-01-06 04:37:00: 100.00 (Top feature: AFeedStream1)
+2004-01-09 12:01:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:04:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:05:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:06:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:08:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:10:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:11:00: 100.00 (Top feature: StripperPressurekPagauge)
+2004-01-09 12:12:00: 100.00 (Top feature: StripperPressurekPagauge)
