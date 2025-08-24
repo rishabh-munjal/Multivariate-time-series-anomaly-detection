@@ -2,6 +2,31 @@
 
 # Multivariate Time Series Anomaly Detection
 
+[Pipleline Code](/anomaly_pipeline.py)
+
+[Output CSV](/output.csv)
+
+## Usage
+
+### CLI
+
+```bash
+python anomaly_detection.py input.csv output.csv
+```
+
+### API
+
+```python
+from anomaly_pipeline import AnomalyPipeline
+
+pipeline = AnomalyPipeline()
+pipeline.run("input.csv", "output.csv")
+```
+
+---
+
+
+
 ## Overview
 
 A batch-processing system for detecting anomalies in **industrial multivariate time series** using **IsolationForest** with feature attribution.
